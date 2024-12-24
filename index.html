@@ -6,21 +6,22 @@
     <title>Wien Foodtour 2025</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #fffdf7, #ffe5e0);
-            color: #333;
+            background: linear-gradient(to bottom, #fffcf2, #f8d7da);
+            color: #444;
         }
         header {
-            background: #d62929;
+            background: #c62828;
             color: #fff;
             text-align: center;
             padding: 2rem 1rem;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            font-weight: bold;
         }
         header p {
             font-size: 1.2rem;
@@ -31,53 +32,52 @@
             text-align: center;
         }
         .highlight {
-            font-size: 1.5rem;
-            color: #d62929;
+            font-size: 2rem;
+            color: #b71c1c;
             font-weight: bold;
+            margin-bottom: 1.5rem;
         }
         .invitation {
-            margin: 2rem 0;
-            font-size: 1.2rem;
+            margin: 1.5rem auto;
+            font-size: 1.3rem;
+            color: #333;
         }
-        .christmas-tree {
+        .image-section {
             margin: 2rem auto;
-            max-width: 400px;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         footer {
             text-align: center;
             padding: 1rem;
-            background: #d62929;
+            background: #b71c1c;
             color: #fff;
-            font-size: 0.9rem;
-        }
-        .snowflake {
-            color: #fff;
-            font-size: 1.5rem;
-            animation: falling 5s infinite;
-            position: absolute;
-        }
-        @keyframes falling {
-            0% { transform: translateY(-100vh); }
-            100% { transform: translateY(100vh); }
+            font-size: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Frohe Weihnachten!</h1>
-        <p>Ein ganz besonderes Geschenk für euch</p>
+        <p>Ein besonderes Geschenk für euch</p>
     </header>
     <main>
         <p class="highlight">Ich lade euch ein zur großen Wien Foodtour 2025!</p>
         <div class="invitation">
-            Erlebt mit mir die kulinarischen Highlights Wiens<br>
-            inklusive einer Übernachtung in der wunderschönen Hauptstadt.
+            Gemeinsam erkunden wir die kulinarischen Highlights von Wien<br>
+            und übernachten in einer tollen Unterkunft.
         </div>
-        <img class="christmas-tree" src="https://via.placeholder.com/400x300?text=🎄" alt="Weihnachtsbaum">
-        <p>Ich freue mich auf dieses besondere Erlebnis mit euch!</p>
+        <div class="image-section">
+            <img src="https://images.unsplash.com/photo-1576740915667-54f77b6a3e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Weihnachtsstimmung">
+        </div>
+        <p>Ich freue mich riesig darauf, dieses Erlebnis mit euch zu teilen!</p>
     </main>
     <footer>
-        &copy; 2024 Dein ganz persönliches Weihnachtsgeschenk
+        &copy; 2024 Dein Weihnachtsgeschenk mit viel Liebe
     </footer>
 </body>
 </html>
